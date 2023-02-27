@@ -5,7 +5,7 @@
     --primary-white-color: #ffffff;
     --secondary-white-color: #E7E9FC;
     --title-btn-color: #4D5AE5;
-    --white-bg-color: #F4F4FD;
+    --grey-bg-color: #F4F4FD;
     --secondary-font: 'Raleway', sans-serif;
 
     --padding-top-bottom-section: 120px;
@@ -261,7 +261,7 @@ body{
 
 /* Section 3 Our Team */
 .our-team{
-    background: var(--white-bg-color);
+    background: var(--grey-bg-color);
 }
 
 .team {
@@ -324,7 +324,7 @@ body{
 .footer-logo {}
 
 .footer-logo-white{
-    color: var(--white-bg-color);
+    color: var(--grey-bg-color);
 }
 
 .footer-text {
@@ -362,7 +362,7 @@ body{
     line-height: 1.5;
     letter-spacing: 0.04em;
     color: var(--title-btn-color);
-    background: var(--white-bg-color);
+    background: var(--grey-bg-color);
 
     display: block;
     border: 1px solid var(--secondary-white-color);
