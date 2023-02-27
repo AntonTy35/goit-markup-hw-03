@@ -179,7 +179,7 @@ body{
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
     border-color: transparent;
-    
+    cursor: pointer;
     display: block;
     margin: 48px  auto 0;
 }
@@ -260,7 +260,9 @@ body{
 /* /Section 2 What are we doing */
 
 /* Section 3 Our Team */
-.our-team{}
+.our-team{
+    background: var(--white-bg-color);
+}
 
 .team {
     font-weight: 700;
@@ -310,10 +312,11 @@ body{
 /* Footer */
 .footer {
     background-color: var(--title-text-color);
+    padding: 100px 0;
 }
 
 .footer-container{
-    padding: 100px 0;
+    
     max-width: 264px;
     margin: 0;
 }
@@ -340,11 +343,12 @@ body{
 /* Content */
 .content {
     padding: 0;
+    padding-top: 96px;
     padding-bottom: var(--padding-top-bottom-section);
 }
 
 .filter-container {
-    padding-top: 96px;
+    
     display: block;
     display: flex;
     column-gap: 24px;
@@ -388,6 +392,7 @@ body{
 }
 
 .project-card-content {
+    padding:  var(--padding-card-top-bottom) var(--padding-card-left-right);
     border: 1px solid var(--secondary-white-color);
     border-top: transparent;    
 }
@@ -397,8 +402,6 @@ body{
     font-size: 20px;
     line-height: 1.2;
     color: var(--title-text-color);
-
-    padding-left: var(--padding-card-left-right);
 }
 
 .content-text {
@@ -406,8 +409,7 @@ body{
     font-size: 16px;
     line-height: 1.5;
     color: var(--primary-text-color);
-
-    padding-left: var(--padding-card-left-right);
+    margin-top: var(--margin-p-top);
 }
 /* /Content */
 
